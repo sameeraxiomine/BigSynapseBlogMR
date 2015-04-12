@@ -1,5 +1,6 @@
 package com.axiomine.blog.polymorphic.mr;
 
+
 import java.io.IOException;
 
 import org.apache.hadoop.conf.Configuration;
@@ -16,6 +17,9 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
+/*
+ * List of custom mappers used to illustrate polymorphism
+ */
 public class MyMappers {
 
     /*
