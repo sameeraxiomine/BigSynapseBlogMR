@@ -4,7 +4,7 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-public class MyDoubleWritable extends MyNumberWritable {
+public class MyDoubleWritable implements MyNumberWritable {
     public Double dbl = 0.0d;
 
     /*

@@ -4,7 +4,7 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-public class MyLongWritable extends MyNumberWritable {
+public class MyLongWritable implements MyNumberWritable {
     public Long lng = 0l;
 
     /*
